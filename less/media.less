@@ -1,0 +1,336 @@
+@import "mixins.less";
+@media screen and(min-width: 1024px) {
+	.row3
+	{
+		padding-bottom: 20px;
+		.rowright
+		{
+			float:none;
+		}
+	}
+	.fmenu
+	{
+		padding-bottom:0px;
+		.menu
+		{
+			margin: 0px 0px 0px 95px;
+			padding: 30px 0px 0px 0px;
+			ul{
+				li
+				{
+					padding-bottom: 30px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and(max-width: 768px) {
+	.header
+	{
+		.socialgroup
+		{
+			margin:15px 0px 0px 0px;
+			padding:0px;
+		}
+	}
+	.row3
+	{
+		padding-bottom:20px;
+		.rowleft
+		{
+			.content
+			{
+				.r3tgroup
+				{
+					padding:10px 0px 0px 0px;
+				}
+			}
+		}
+		.rowright
+		{
+			float:none;
+		}
+		
+	} 
+	.fmenu
+	{
+		.menu
+		{
+			margin-left:50px;
+			ul
+			{
+				li
+				{
+					padding-bottom:20px;
+				}
+			}
+		}
+	}
+	.footer
+	{
+		.foottxt
+		{
+			margin-left:0px;
+		}
+	}
+}
+
+@media screen and(max-width: 480px) {
+	.header
+	{
+		.socialgroup
+		{
+			width:400px;
+			margin: 0px 0px 0px 80px;
+			padding-bottom: 10px;
+			display:block;
+			overflow:unhidden;
+			.social
+			{
+				margin-left: 30px;
+			}
+		}
+	}
+	.background
+	{
+		.menu
+		{
+			padding:0px 0px 0px 0px;
+			li
+			{
+				font-size:10pt;
+				a
+				{
+					padding:15px;
+				}
+			}
+		}
+	}
+	.row3
+	{
+		padding-bottom: 50px;
+		.rowleft
+		{
+			.content
+			{
+				.r3tgroup
+				{
+					padding:0px 0px 0px 0px;
+					.r3txt2
+					{
+						width:278px;
+					}
+					.rowpara
+					{
+						width:278px;
+					}
+				}
+			}
+		}
+	}
+	.fmenu
+	{
+		padding-bottom:25px;
+		.menu
+		{
+			margin:0px;
+			padding:25px 0px 0px 50px;
+			ul
+			{
+				li
+				{
+					padding:0px 54px 20px 0px;
+
+				}
+			}
+		}
+	}
+	.footer
+	{
+		.foottxt
+		{
+			margin: 0px 0px 0px 25px;
+			padding: 25px;
+		}
+	}
+
+	
+
+	
+}
+
+@media screen and(max-width: 320px) 
+{
+	.header
+	{
+		.socialgroup
+		{
+			margin:0px 0px 0px 0px;
+			width:255px;
+			.social
+			{
+				margin-left:0px;
+			}
+					
+			.form_input_search
+			{
+				.search
+				{
+					padding: 10px 0px 10px 0px;						
+				}
+			}
+					
+		}//socialgroup
+		 		
+	}//header
+	.background
+	{
+		.menu
+		{
+			background-color: #ff6861;
+			padding: 0px 0px 0px 0px;
+			text-align: center;
+			margin: 0;
+			
+			li
+			{
+				text-align: center;
+				color:white;
+				display:block;
+				a
+				{
+					padding:5%;
+					margin-left: 0px;
+					display: block;
+				}
+				&:first-child
+				{
+					border-left:none;
+				}
+			}
+		}
+	
+		.row1
+		{
+			user
+			{
+				ul
+				{
+					li
+					{
+						.utxt2{
+							padding-bottom: 5%;
+						}
+					}
+				}
+			}
+		}
+		.row2
+		{
+			ul
+			{
+				margin-left:10px;
+				li
+				{
+					padding-top:20px;
+					.rtgroup
+					{
+						.rtxt2
+						{
+							width:175px;
+						}
+					}
+					.rpara
+					{
+						width:225px;
+					}
+				}
+			}
+		}
+		.row3
+		{
+			.rowleft
+			{
+				.content
+				{
+					.r3tgroup
+					{
+						padding-left:0px;
+						.r3txt1
+						{
+							width:170px;
+						}
+						.r3txt2
+						{
+							width:190px;
+						}
+						.rowpara
+						{
+							width:195px;
+						}
+						.r3btn
+						{
+							margin-top:5px;
+						}
+					}
+				}
+			}
+			.rowright
+			{
+				width:225px;
+				.contact
+				{
+					.rrtgroup
+					{
+						.rrtxt2
+						{
+							width:140px;
+						}
+					}
+				}
+				.form
+				{	
+					width:250px;
+					padding-bottom: 25px;
+					.name
+					{
+						width:125px;
+					}
+				}
+			}
+		}
+	}
+	.fmenu
+	{
+		.menu
+		{
+		
+			padding:15px 0px 0px 0px;
+			margin-left:30px;
+			ul
+			{
+				li
+				{
+					width: 100px;
+					padding:0px 30px 20px 0px;
+					.align(@valignt);
+					.ftxt1
+					{
+						width:125px;
+					}
+				}
+			}
+		}
+	}
+	.footer
+	{
+		.foottxt
+		{
+			padding-left:0px;
+			margin-left: 20px;
+		}
+	}
+}
+
+
